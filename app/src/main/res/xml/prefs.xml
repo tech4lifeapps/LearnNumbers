@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/splash_screen_preferences" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkbox"
+            android:summary="for the splash screen"
+            android:title="Music" />
+        </PreferenceCategory>
+        
+     <PreferenceCategory android:title="@string/language_selection_preferences" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/list"
+            android:entryValues="@array/lValues"
+            android:key="list"
+            android:summary="Choose a language (restart required)"
+            android:title="Language" >
+        </ListPreference>
+    </PreferenceCategory>
+      
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:text="Numbers! is a simple pilot project launched by tech4lifeapps.\n\nWe specialize in developing educational tools for Android phones and tablets.\n\nThis free learning tool is dedicated to the children of ASEAN. Numbers! is free of any ads and does not use or rely on an Internet connection.\n\nPlease contact us if you'd like to support us with contributions in your own language. We would be happy to include your content in more sophisticated, future versions of this App.\n\nThank you!\n\ntech4lifeapps@gmail.com"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Numbers!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">Numbers! v1.3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splash_screen_preferences">Splash Screen</string>
+    <string name="language_selection_preferences">Language Selection</string>
+
+</resources>
