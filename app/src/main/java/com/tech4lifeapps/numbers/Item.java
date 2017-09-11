@@ -2,13 +2,8 @@ package com.tech4lifeapps.numbers;
 
 import android.graphics.Bitmap;
 
-/**
- * 
- * The class behind the scenes
- *
- */
-
-public class Item {
+ // The class behind the scenes
+ public class Item {
 	Bitmap image;
 	String number;
 	String title;
@@ -37,5 +32,4 @@ public class Item {
 	public void setNumber(String number) {
 		this.number = number;
 	}
-
 }

@@ -70,10 +70,10 @@ public class MainActivity extends Activity {
             "djet-sip", "bpaet-sip", "gaao-sip", "nueng-rooy"};
 
 
-    // WILL DEFINE WHICH DIRECTORY CONTAINS OUR SOUND CLIPS
+    // DEFINES WHICH DIRECTORY CONTAINS OUR SOUND CLIPS
     public static String ASSETS_DIRECTORY;
 
-    // WILL DEFINE WHICH STRING ARRAY WILL BE USED TO DISPLAY OUR TEXT LABELS
+    // DEFINES WHICH STRING ARRAY WILL BE USED TO DISPLAY OUR TEXT LABELS
     public static String[] TEXT_LABELS;
 
     private List<Sound> mySounds = new ArrayList<Sound>();
@@ -91,7 +91,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // https://www.youtube.com/watch?v=SGx03Uqn9JA LESSON 57
-        // ACCESS OUR SHARED PREFERENCES
+        // ACCESS SHARED PREFERENCES
         SharedPreferences getPrefs = PreferenceManager
                 .getDefaultSharedPreferences(getBaseContext());
         String values = getPrefs.getString("list", "1");
@@ -155,7 +155,6 @@ public class MainActivity extends Activity {
         registerClickCallback();
     }
 
-
     // METHOD II, using a switch statement
     public static void assignDirectoriesLabels(String value) {
         char firstLetter = value.charAt(0);
@@ -205,8 +204,6 @@ public class MainActivity extends Activity {
             gridArray.add(new Item(icon, numbers[i], TEXT_LABELS[i]));
         }
     }
-
-    ;
 
     private void registerClickCallback() {
 
@@ -274,5 +271,4 @@ public class MainActivity extends Activity {
         }
         return false;
     }
-
 }
